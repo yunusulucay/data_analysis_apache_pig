@@ -2,6 +2,8 @@
 
 Basics of Apache Pig and making an analysis using Pig 
 
+![image](https://user-images.githubusercontent.com/42489236/171363833-78df2eb2-3dd8-409c-9286-1b4ccaff50c8.png)
+
 For installation :
 https://www.geeksforgeeks.org/how-to-install-apache-pig-in-linux/
 
@@ -15,4 +17,7 @@ Embedded Mode (UDF) − Apache Pig provides the provision of defining our own fu
 
 In this tutorial I have used batch mode and made the development using Batch Mode. I used Docker as a Hadoop environment. In my previous repo I created hadoop environment that have 1 namenode and 3 datanode on docker(https://github.com/yunusulucay/docker-hadoop-spark). I installed Pig on this system. 
 
+References:
 
+https://www.tutorialspoint.com/apache_pig/index.htm
+https://data-flair.training/blogs/hadoop-pig-tutorial/
