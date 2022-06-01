@@ -15,9 +15,10 @@ Batch Mode (Script) − You can run Apache Pig in Batch mode by writing the Pig 
 
 Embedded Mode (UDF) − Apache Pig provides the provision of defining our own functions (User Defined Functions) in programming languages such as Java, and using them in our script.
 
-In this tutorial I have used batch mode and made the development using Batch Mode. I used Docker as a Hadoop environment. In my previous repo I created hadoop environment that have 1 namenode and 3 datanode on docker(https://github.com/yunusulucay/docker-hadoop-spark). I installed Pig on this system. 
+In this tutorial I have used batch mode and made the development using Batch Mode so I write codes on Pig Latin. I used Docker as a Hadoop environment. In my previous repo I created hadoop environment that have 1 namenode and 3 datanode on docker(https://github.com/yunusulucay/docker-hadoop-spark). I installed Pig on this system. 
 
 References:
 
 https://www.tutorialspoint.com/apache_pig/index.htm
+
 https://data-flair.training/blogs/hadoop-pig-tutorial/
