@@ -17,6 +17,16 @@ Embedded Mode (UDF) − Apache Pig provides the provision of defining our own fu
 
 In this tutorial I have used batch mode and made the development using Batch Mode so I write codes on Pig Latin. I used Docker as a Hadoop environment. In my previous repo I created hadoop environment that have 1 namenode and 3 datanode on docker(https://github.com/yunusulucay/docker-hadoop-spark). I installed Pig on this system. 
 
+Implementation: 
+
+In terminal to run the pig script -> pig -x mapreduce hdfs:///user/root/sample_script.pig
+
+sample_script.pig file is a basic Pig Latin script file. In this file the followings implement respectively:
+- Read the csv file in hadoop file system.
+- Order data by age feature.
+- Select only specified features.
+- Show results or save the results. (After storing process run the described codes on terminal to merge.)
+
 References:
 
 https://www.tutorialspoint.com/apache_pig/index.htm
